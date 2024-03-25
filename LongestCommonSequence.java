@@ -5,7 +5,7 @@ public class LongestCommonSequence {
     public LongestCommonSequence() {
     }
 
-    public int LCS(String a, String b) {
+    public static int LCS(String a, String b) {
         int count = 0;
 
         for (int i = 0; i < a.length(); i++) {
@@ -16,10 +16,10 @@ public class LongestCommonSequence {
         return count;
     }
 
-    public int main() {
+    public static void main(String args[]) {
         String a = "abc";
         String b = "ac";
         System.out.println(LCS(a, b));
-        return LCS(a, b);
+        // return LCS(a, b);
     }
 }
