@@ -35,31 +35,31 @@ public class LongestCommonSequence {
         String a = "abcde";
         String b = "ace";
         System.out.print(LCS(a, b)); // prints 3
-        System.out.println("  " + lcs);
+        System.out.println("  " + lcs); // prints 'ace'
 
         a = "BD";
         b = "AE";
         System.out.print(LCS(a, b)); // prints 0
-        System.out.println("  " + lcs);
+        System.out.println("  " + lcs); // prints ''
 
         a = "abc";
         b = "abc";
         System.out.print(LCS(a, b)); // prints 3
-        System.out.println("  " + lcs);
+        System.out.println("  " + lcs); // prints 'abc'
 
         a = "abc";
         b = "ABC";
         System.out.print(LCS(a, b)); // prints 0
-        System.out.println("  " + lcs);
+        System.out.println("  " + lcs); // prints ''
 
         a = "123";
         b = "12345";
         System.out.print(LCS(a, b)); // prints 3
-        System.out.println("  " + lcs);
+        System.out.println("  " + lcs); // prints '123'
 
         a = ";/%-";
         b = ";%";
         System.out.print(LCS(a, b)); // prints 2
-        System.out.println("  " + lcs);
+        System.out.println("  " + lcs); // ';%'
     }
 }
